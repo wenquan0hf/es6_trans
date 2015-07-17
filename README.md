@@ -1,3 +1,5 @@
-# es6_trans
+#深度解析 ES6 
 
-英文官方教程：[https://hacks.mozilla.org/author/jorendorffmozillacom/](https://hacks.mozilla.org/author/jorendorffmozillacom/)
+[目录](TOC.md)
+
+英文链接：[https://hacks.mozilla.org/author/jorendorffmozillacom/](https://hacks.mozilla.org/author/jorendorffmozillacom/)
