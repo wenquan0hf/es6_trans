@@ -13,7 +13,7 @@ let 😻 = 😺 × 😍;  // SyntaxError
 他们不是代表别的东西的文学的设备。
 
 他们是绝对是与钹不一样的东西。
-![bo](https://2r4s9p1yi1fa2jd7j43zph8r-wpengine.netdna-ssl.com/files/2015/06/302555333_c3f827fd75_z.jpg) 
+![Alt text](./bo.jpg)
 
 在编程中使用钹绝对不是一个好主意。他们有奔溃的趋势。
 
