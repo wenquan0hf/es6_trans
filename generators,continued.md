@@ -195,7 +195,7 @@ for (var value of produceValues()) {
 ##在负责中的生成器
 到目前为止，我们已经看到了在生成器和其用户之间的对话已经是相当片面的了。以影院做比喻来打破：
 
-![Alt text](./generator-messages-small.jpg)
+![Alt text](./img/generator-messages-small.jpg)
 
 用户在负责中。生成器按需进行工作。但是这不是使用生成器进行编程的唯一方法。
 
@@ -203,7 +203,7 @@ for (var value of produceValues()) {
 
 为了开始寻找答案，想像一下，如果我们只有一种方法使得 .next( ) 调用者传递值回生成器，这会导致什么事情发生。只需这一个变化，我们可以有一段全新的对话：
 
-![Alt text](./generator-messages-2-small.jpg)
+![Alt text](./img/generator-messages-2-small.jpg)
 
 
 同时，一个生成器的 .next( ) 方法实际情况下确实有一个可选择的主题，且聪明的一点是，该说法随后出现为生成器的 yield 表达式的返回值。这就意味着，yield 不是类似于 return 的表达式；它是一种表达式，一旦生成器恢复，其就有一个值。
