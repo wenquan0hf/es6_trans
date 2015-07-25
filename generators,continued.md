@@ -194,14 +194,17 @@ for (var value of produceValues()) {
 
 ##在负责中的生成器
 到目前为止，我们已经看到了在生成器和其用户之间的对话已经是相当片面的了。以影院做比喻来打破：
-![enter image description here](https://2r4s9p1yi1fa2jd7j43zph8r-wpengine.netdna-ssl.com/files/2015/07/generator-messages-small.png)
+
+![Alt text](./generator-messages-small.jpg)
 
 用户在负责中。生成器按需进行工作。但是这不是使用生成器进行编程的唯一方法。
 
 在第一部分中，我说过生成器可以被用于异步编程。你现在做的异步回调或承诺链接都可以用生成器来替代。你可能想知道究竟是如何工作的。为什么产生( yield )的能力是足够的（这毕竟是生成器的唯一的能力）？毕竟，异步代码并不仅仅用于产生。它使得东西发生。它要求从文件和数据库中的调用数据。其触发对服务器的请求。然后它返回到事件循环以等待那些异步进程完成。生成器究竟如何做到这一点的？如果没有回调，当数据来的时候，生成器怎样从这些文件，数据库和服务器接收数据的？
 
 为了开始寻找答案，想像一下，如果我们只有一种方法使得 .next( ) 调用者传递值回生成器，这会导致什么事情发生。只需这一个变化，我们可以有一段全新的对话：
-![enter image description here](https://2r4s9p1yi1fa2jd7j43zph8r-wpengine.netdna-ssl.com/files/2015/07/generator-messages-2-small.png)
+
+![Alt text](./generator-messages-2-small.jpg)
+
 
 同时，一个生成器的 .next( ) 方法实际情况下确实有一个可选择的主题，且聪明的一点是，该说法随后出现为生成器的 yield 表达式的返回值。这就意味着，yield 不是类似于 return 的表达式；它是一种表达式，一旦生成器恢复，其就有一个值。
 
