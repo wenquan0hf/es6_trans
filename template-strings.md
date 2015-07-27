@@ -10,7 +10,7 @@
 
 ES6 引入了一种称为模板字符串的新字符串文字语法 。它们看起来与普通字符串类似，除了他们使用反引号字符 ` 而不是通常的引号 ‘ 或 ” 。在最简单的情况下，他们真的只是字符串：
 
-``` javascript
+``` 
 context.fillText(`Ceci n'est pas une chaîne.`, x, y);
 ```
 
@@ -18,7 +18,7 @@ context.fillText(`Ceci n'est pas une chaîne.`, x, y);
 
 有不计其数的方式来使用这一点，但一个温暖我心的是一个不起眼的错误信息：
 
-``` javascript
+``` 
 function authorize(user, action) {
   if (!user.hasPrivilege(action)) {
     throw new Error(
@@ -41,7 +41,7 @@ function authorize(user, action) {
 
 与普通的字符串不同，模版字符串能够写成多行:  
 
-``` javascript
+```
 $("#warning").html(`
   <h1\>Watch out!</h1\>
   <p>Unauthorized hockeying can result in penalties
@@ -67,7 +67,7 @@ ES6 在模板字符串上提供一个额外的扭转，这使得 JS 开发人员
 
 需要注意的是，SaferHTML不是由 ES6 标准库提供的。我们将在下面自己来实现它。
 
-``` javascript
+``` 
 var message =
   SaferHTML`<p>${bonk.sender} has sent you a bonk.</p>`;
 ```
@@ -78,7 +78,7 @@ var message =
 
 上面的代码等价于：
 
-``` javascript
+``` 
 var message =
   SaferHTML(templateData, bonk.sender);
 ```
