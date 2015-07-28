@@ -35,98 +35,96 @@ for (var word of someWords()) {
 
 FOR循环孤独地站在舞台上，戴着安全帽并背着一个剪贴板，这是所有的角色。
 
-<center> FOR 循环</center>
-<center> ( 呼唤 )</center>
-<center> someWords( )!</center>
-
+FOR 循环   
+( 呼唤 )    
+someWords( )!  
+  
  生成器出现了：一个身材高大，黄铜地，上发条的绅士。它看起来足够友好，但它仍然是一尊雕像。
 
-<center> FOR 循环</center>
-<center> ( 呼唤 )</center>
-<center> ( 巧妙地拍着手 )</center>
-<center> 好吧！让我们做一些东西。</center>
-<center> ( 针对生成器 )</center>
-<center> .next( )!</center>
+FOR 循环  
+( 呼唤 )  
+( 巧妙地拍着手 )   
+好吧！让我们做一些东西。  
+( 针对生成器 )   
+.next( )!   
 
 生成器一下子就恢复地生机。
 
-<center> 生成器</center>
-<center> ｛值：“你好”，是否已完成：否｝</center>
+生成器  
+｛值：“你好”，是否已完成：否｝  
 
-其以一个愚蠢地姿势冻结住了。
+以一个愚蠢地姿势冻结住了。
 
-<center> FOR 循环</center>
-<center> 警告！</center>
+FOR 循环  
+警告！  
 
 立即进入警告状态，睁大眼睛并且气喘吁吁。我们感觉
 他总是这样。
 
-<center> FOR 循环</center>
-<center> 告诉用户“你好”。</center>
+FOR 循环  
+告诉用户“你好”。  
 
 警告转身并立即下了舞台。
 
-<center> ALERT</center>
-<center> ( 从舞台上面下来并尖叫)</center>
-<center> 停止一切东西！</center>
-<center> 在 hacks.mozilla.org 的网页说，</center>
-<center> “你好”！</center>
+ALERT  
+( 从舞台上面下来并尖叫)  
+停止一切东西！  
+在 hacks.mozilla.org 的网页说，  
+“你好”！  
 
 经过几秒钟的停顿，警告重新回来了，在走向 FOR 和 LOOP 的过程中的所有的路口都停下来。
 
-<center> ALERT</center>
-<center> 用户说一切都正常。</center>
-
-<center> FOR 循环</center>
-<center> ( 巧妙地拍着手 )</center>
-<center> 好吧！让我们做完一些东西。</center>
-<center> ( 转过身回到生成器那边 )</center>
-<center> .next( )!</center>
+ALERT  
+用户说一切都正常。  
+FOR 循环  
+( 巧妙地拍着手 )  
+好吧！让我们做完一些东西。  
+( 转过身回到生成器那边 )  
+.next( )!
 
 生成器又一次恢复生机。
 
-<center> 生成器</center>
-<center> ｛值：“世界”，是否已完成：否｝</center>
+ 生成器  
+ ｛值：“世界”，是否已完成：否｝
 
 其用另一个愚蠢的姿势冻结住了。
 
-<center> FOR 循环</center>
-<center> 警告！</center>
-
-<center> ALERT</center>
-<center> ( 已经在运行了 )</center>
-<center> 在上面了！</center>
-<center> ( 从舞台上面下来，尖叫 )</center>
-<center> 停止一切东西！</center>
-<center> 在 hacks.mozilla.org 的网页说，</center>
-<center> “世界”！</center>
+FOR 循环  
+警告！  
+ALERT  
+( 已经在运行了 )  
+在上面了！  
+( 从舞台上面下来，尖叫 )  
+停止一切东西！  
+在 hacks.mozilla.org 的网页说，  
+“世界”！  
 
 同样，一个暂停，然后 ALERT 吃力地跋涉回舞台，突然  
 垂头丧气。
 
-<center> ALERT</center>
-<center> 用户再次说一切正常，但是...</center>
-<center> 但是请保护这个界面</center>
-<center> 免受创建其他对话的影响。</center>
+ALERT  
+用户再次说一切正常，但是...  
+但是请保护这个界面  
+免受创建其他对话的影响。  
 
 他退出了，撅着嘴。
 
-<center> FOR 循环</center>
-<center> ( 巧妙地拍着手 )</center>
-<center> 好吧！让我们做完一些东西。</center>
-<center> ( 转过身回到生成器那边 )</center>
-<center> .next( )!</center>
+FOR 循环  
+( 巧妙地拍着手 )  
+好吧！让我们做完一些东西。  
+( 转过身回到生成器那边 )  
+.next( )!  
 
 生成器第三次恢复生机。
 
-<center> 生成器</center>
-<center> 带着尊严</center>
-<center> ｛值：未定义，是否已完成：是｝</center>
+生成器  
+带着尊严  
+｛值：未定义，是否已完成：是｝
 
 它的头搁在其胸部，它眼睛里面的火熄灭了。它永远不会再移动了。
 
-<center> FOR 循环</center>
-<center> 是我午餐的时间了。</center>
+FOR 循环  
+是我午餐的时间了。
 
 她退出了舞台。
 
