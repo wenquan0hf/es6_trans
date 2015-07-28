@@ -69,7 +69,7 @@ $("#confetti-btn").click(function (event) {
 
 至少现在上述四种语言已经具备了 lambda 函数。较新的语言通常都已经内置有lambda 函数了。我们能有现在的 JavaScript 应该感谢早起的 JavaScript 开发者，他们创建了依赖于 lambdas 函数的函数库，导致这一特征被广泛采用。
 
-这里有点略带忧伤，在我提及的所有语言中， JavaScript 关于 lambdas 函数的介绍稍微冗长。
+这里有点略带忧伤，在我提及的所有语言中， JavaScript 关于 lambdas 函数的介绍稍微有点冗长。
 
 ```// A very simple function in six languages.
 function (a) { return a > 0; } // JS
