@@ -3,7 +3,7 @@
   - [ES6 In Depth - 迭代和 for-of 循环](iterators-and-the-for-of-loop.md)
   - [ES6 In Depth - 生成器](generators.md)
   - [ES6 In Depth - 模板字符串](template-strings.md)
-  - [ES6 In Depth - Destructuring](destructuring.md)
+  - [ES6 In Depth - 非结构化赋值](destructuring.md)
   - [ES6 In Depth - 箭头函数](arrow-functions.md)
   - [ES6 In Depth - Symbos](symbols.md)
   - [ES6 In Depth - Collections](collections.md)

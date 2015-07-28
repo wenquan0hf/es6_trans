@@ -16,7 +16,7 @@ let 😻 = 😺 × 😍;  // SyntaxError
 
 他们是绝对是与钹不一样的东西。
 
-![Alt text](./img/bo.jpg)
+![Alt text](./image/bo.jpg)
 
 在编程中使用钹绝对不是一个好主意。他们有奔溃的趋势。
 
