@@ -7,6 +7,6 @@
   - [ES6 In Depth - 箭头函数](arrow-functions.md)
   - [ES6 In Depth - Symbos](symbols.md)
   - [ES6 In Depth - Collections](collections.md)
-  - [ES6 In Depth - Generators,continued](generators-continued.md)
+  - [ES6 In Depth - 继续迭代器](generators-continued.md)
   - [ES6 In Depth - 代理](proxies)
   
