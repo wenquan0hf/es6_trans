@@ -86,7 +86,7 @@ ES6 增加了新的考虑：纯对象是不可迭代的，因此它们将无法�
 - set.has(value)  当 Set 中有这个值返回 true 。
 - set.add(value) 添加一个值到 Set 中。如果 Set 中已经存在这个值了，那么什么也不会发 生。
 - set.delete(value) 删除 Set 中的一个值。如果 Set 中不存在这个值，同样什么也不会发生。 add( ) 和.delete( ) 都会返回 Set 本身，所以你必须将这些操作串起来。
-- set[Symbol.iterator]( ) 返回一个 Set 上的迭代器。你通常不会直接调用，但是这个方法会使得 Set 可迭代。这就意味着你可以直接这么写  for (v of set) {...} 。
+- set[Symbol.iterator]\( ) 返回一个 Set 上的迭代器。你通常不会直接调用，但是这个方法会使得 Set 可迭代。这就意味着你可以直接这么写  for (v of set) {...} 。
 - set.forEach(f) 这个代码太简单了，你可以看看下面的例子：
 
    ```

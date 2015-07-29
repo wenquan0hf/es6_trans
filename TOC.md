@@ -5,8 +5,8 @@
   - [ES6 In Depth - 模板字符串](template-strings.md)
   - [ES6 In Depth - 非结构化赋值](destructuring.md)
   - [ES6 In Depth - 箭头函数](arrow-functions.md)
-  - [ES6 In Depth - Symbos](symbols.md)
-  - [ES6 In Depth - Collections](collections.md)
+  - [ES6 In Depth - 符号](symbols.md)
+  - [ES6 In Depth - 容器](collections.md)
   - [ES6 In Depth - 继续迭代器](generators-continued.md)
   - [ES6 In Depth - 代理](proxies)
   
