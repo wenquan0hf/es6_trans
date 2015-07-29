@@ -1,4 +1,4 @@
-- AWK 中文指南  
+- 深度解析 ES6
   - [ES6 In Depth - 引言](an-introduction.md)
   - [ES6 In Depth - 迭代和 for-of 循环](iterators-and-the-for-of-loop.md)
   - [ES6 In Depth - 生成器](generators.md)
