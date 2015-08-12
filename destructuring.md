@@ -1,4 +1,4 @@
-# 深度探索 ES6: 非结构化赋值
+# 非结构化赋值
 
 深度探索 ES6 是一个针对 ECMAScript 标准中添加到 JavaScript 编程语言新功能的系列， 简称为 ES6。
 
@@ -201,7 +201,7 @@ console.log(x);
 // 3
 ```
 
-(编者注释：这个默认值特性现在已经在 Firfox 中实现，但是只支持前两种形式，不包括第三种。参见bug 932080 : [https://bugzilla.mozilla.org/show_bug.cgi?id=932080](https://bugzilla.mozilla.org/show_bug.cgi?id=932080) )
+(编者注释：这个默认值特性现在已经在 Firfox 中实现，但是只支持前两种形式，不包括第三种。参见 bug 932080 : [https://bugzilla.mozilla.org/show_bug.cgi?id=932080](https://bugzilla.mozilla.org/show_bug.cgi?id=932080) )
 
 ## 非结构化的实际应用
 
@@ -318,7 +318,7 @@ function returnMultipleValues(k) {
 returnMultipleValues((foo, bar) => ...);
 ```
 
-### 导入  COMMONJS 模块
+### 导入 COMMONJS 模块
 
 仍然不想用 ES6 模块？还想用 COMMONJS 模块？没问题！当导入一些 COMMONJS 模块 X，这是很显然 X 导入一些比你打算使用的函数更多的函数。通过非结构化赋值的方式，你可以显式的导入你需要用到的函数，从面避免命名空间的污染：
 
@@ -332,7 +332,7 @@ const { SourceMapConsumer, SourceNode } = require("source-map");
 
 五周以前我们说过 ES6  将会改变你写 JavaScript 的方式。这种特性是我们想要的：简单的改进能够被一次性学习。综上所述，最以革命的方式进化终影响你在每个项目的工作。
 
-更新非结构化赋值来遵守ES6一直是一个团队努力的结果。尤其感谢 Tooru Fujisawa (arai) and Arpad Borsos (Swatinem)  的杰出贡献。
+更新非结构化赋值来遵守 ES6 一直是一个团队努力的结果。尤其感谢 Tooru Fujisawa (arai) and Arpad Borsos (Swatinem)  的杰出贡献。
 
 支持非结构化赋值的 Chrome 当前正在开发与此同时其他浏览器无疑也会增加支持非结构化赋值操作。现在来说，如果你想在 Web 上运用非结构化，你需要用到 [Babel](http://babeljs.io/) 或者 [Traceur](https://github.com/google/traceur-compiler#what-is-traceur) 。
 
@@ -340,6 +340,3 @@ const { SourceMapConsumer, SourceNode } = require("source-map");
 
 下周，我们将会涉及或多或少关于 JS 的新特性——构建块基础的语言知识。你会在乎吗？略短的语法你可以感到兴奋吗？我非常相信答案是肯定的。下周继续加入我们，我们将会深度学习 ES6 箭头函数。
 
-Jason Orendorff
-
-深度探索 ES6 编辑者

@@ -1,4 +1,4 @@
-# 深度探索 ES6: 代理
+# 代理
 
 深度探索 ES6 是一个针对 ECMAScript 标准中添加到 JavaScript 编程语言新功能的系列， 简称为 ES6。
 
@@ -55,7 +55,6 @@ var obj = new Proxy({}, {
 当系统中没有接口的时候，你可以创建一个接口。有史以来最酷炫的黑客软件涉及绘制 API 边界，并把接口植入已有的大工程中。
 
 虚拟存储，硬件虚拟化， [Docker](https://en.wikipedia.org/wiki/Docker_%28software%29)， [Valgrind](http://valgrind.org/)， [rr](http://rr-project.org/) —— 这些项目不同程度地都会将新的接口引入到原有系统中。在某些情况下，要想这些新的接口能很好的工作甚至需要花费数年的时间，还需要操作系统新特性的支持，甚至需要新的硬件的支持。  
-
 
 ES6 引入了虚拟化来支持 javascript 最核心的概念：对象。
 
@@ -204,7 +203,7 @@ var proxy = new Proxy(target, handler);
 
 直到现在，上面代码都无法工作。但是代理只用几行代码就能搬到。我们只需要利用 tree.[[Get]]\( ) 。如果你是喜欢挑战类型的人，那么你可能在阅读  tree.[[Get]]\( ) 源码之前，想试着实现它。
 
-![Alt text](image/maple-tap.jpg)
+![Alt text](images/maple-tap.jpg)
 
 下面给出我的解决方案：
 

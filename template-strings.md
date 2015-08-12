@@ -1,4 +1,4 @@
-# 深度探索 ES6: 模版字符串  
+# 模版字符串  
 
 深度探索 ES6 是一个针对 ECMAScript 标准中添加到 JavaScript 编程语言新功能的系列， 简称为 ES6。
 
@@ -84,7 +84,7 @@ var message =
   SaferHTML(templateData, bonk.sender);
 ```
 
-其中，templateData 是模板的所有字符串部分的一个不变的数组。其是为我们的 JS 引擎创建的。这里的数组具有两个元素，因为在标签模板中有两个通过替代隔开的字符串部分。所以 templateData 会看起来像 Object.freeze(["< p>", " has sent you a bonk.< /p>"]。
+其中，templateData 是模板的所有字符串部分的一个不变的数组。其是为我们的 JS 引擎创建的。这里的数组具有两个元素，因为在标签模板中有两个通过替代隔开的字符串部分。所以 templateData 会看起来像 `Object.freeze(["< p>", " has sent you a bonk.< /p>"]`。
 
 (其实 templateData 存在不止一个属性。但在这篇文章中，我们将不会使用它，但我会为了完整性而提到它：templateData.raw 。这是包含标签模板中的所有字符串部分的另一个数组，但此时正如他们在源代码中的样子，他们都原封不动地包含了转义序列，如 \n，而不是被转换成新的一行或着等等。标准的标签 String.raw 使用这些原始字符串。)
 
@@ -112,7 +112,7 @@ function SaferHTML(templateData) {
 }
 ```  
 
-通过这个定义，标签模版 SaferHTML\``<p>${bonk.sender} has sent you a bonk.</p>`\` 可能扩展成字符串 `"<p>ES6&lt;3er has sent you a bonk.</p>"`。你的用户是安全的，即使一个恶意命名的用户，比如 `Hacker Steve <script>alert('xss');</script>`，就给他们一个猛击。别管他们到底想干嘛。
+通过这个定义，标签模版 `SaferHTML<p>${bonk.sender} has sent you a bonk.</p>` 可能扩展成字符串 `"<p>ES6&lt;3er has sent you a bonk.</p>"`。你的用户是安全的，即使一个恶意命名的用户，比如 `Hacker Steve <script>alert('xss');</script>`，就给他们一个猛击。别管他们到底想干嘛。
 
 (顺便说一句，如果函数使用 arguments 对象的方式沉重地打击了你。请在下周关注，ES6 的另一个新的功能，我想你可能会喜欢。)
 
@@ -174,8 +174,9 @@ function SaferHTML(templateData) {
 
 为了显示一条消息，写 \` alert(\`世界你好！\`)\`。
 
-它会显示如下：  
-<a>为了显示一条消息，写 alert ( 世界你好!)。</a>
+它会显示如下： 
+ 
+`<a>为了显示一条消息，写 alert ( 世界你好!)。</a>`
 
 注意到，在输出中是没有反引号的。Markdown 将四个反引号都解释为代码分隔符并被 HTML 的标签取而代之。
 
